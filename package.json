@@ -1,0 +1,17 @@
+{
+  "name": "tertiary-education-providers",
+  "version": "0.0.0",
+  "description": "a list of tertiary education providers in Australia",
+  "main": "providers.json",
+  "devDependencies": {
+    "cheerio": "~0.22.0",
+    "got": "~5.7.1"
+  },
+  "scripts": {
+    "scrape": "./scrape/providers.js 1> providers.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Michael Rhodes",
+  "license": "MIT"
+}
